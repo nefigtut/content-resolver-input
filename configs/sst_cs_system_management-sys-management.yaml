@@ -60,7 +60,6 @@ data:
   - opencryptoki-swtok
   - opencryptoki
   - opencryptoki-libs
-  - opencryptoki-tpmtok
   - openhpi-libs
   - openhpi
   - openhpi-devel
@@ -124,6 +123,9 @@ data:
     - setserial
     ppc64le:
     - setserial
+    - opal-prd
+    - opal-utils
+    - opal-firmware
 
   package_placeholders:
     rhel-system-roles-sap:

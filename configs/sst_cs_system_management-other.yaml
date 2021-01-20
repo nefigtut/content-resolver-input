@@ -26,6 +26,8 @@ data:
   - scotch
   - scotch-doc
   - bc
+  - tracer
+  - modulemd-tools
 
   labels:
   - eln

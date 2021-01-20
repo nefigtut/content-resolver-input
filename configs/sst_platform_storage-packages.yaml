@@ -7,7 +7,6 @@ data:
 
   packages:
     # Stratis
-    - python-hs-dbus-signature
     - python3-dbus-client-gen
     - python3-dbus-python-client-gen
     - python3-dbus-signature-pyparsing
@@ -112,7 +111,6 @@ data:
     - libstoragemgmt-local-plugin
     - libstoragemgmt-megaraid-plugin
     - libstoragemgmt-nfs-plugin
-    - libstoragemgmt-nstor-plugin
     - libstoragemgmt-smis-plugin
     - libstoragemgmt-targetd-plugin
     - libstoragemgmt-udev
@@ -134,13 +132,19 @@ data:
     # - peripety
     #
 
-  placeholder_packages:
+  package_placeholders:
     kmod-kvdo:
       description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: kmod-kvdo
     pmreorder:
       description: This package is only available in RHEL.
+      srpm: pmreorder
     vdo:
       description: This package is currently only available in RHEL.  (Fedora package is available via COPR)
+      srpm: kmod-kvdo
+    stratisd:
+      description: RHEL builds are bundled and use rust-toolset.  Placeholder so we do not pull in Fedoras dependencies.
+      srpm: stratisd
 
   arch_packages:
     ppc64le:

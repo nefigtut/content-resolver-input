@@ -6,6 +6,8 @@ data:
   maintainer: sst_cs_infra_services
 
   unwanted_packages:
+  # a2ps
+  - a2ps
   # authd
   - authd
   # bind
@@ -35,8 +37,6 @@ data:
   # gutenprint
   - gutenprint-extras
   - gutenprint-plugin
-  # hostname
-  - hostname
   # hplip
   - hplip-gui
   # ldns
@@ -100,6 +100,8 @@ data:
   - xsane-gimp
   # subversion
   - subversion-kde
+  # exim
+  - exim
 
   labels:
   - eln
