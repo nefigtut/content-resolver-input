@@ -12,6 +12,7 @@ data:
   - cups-filters
   - cups-ipptool
   - cups-lpd
+  - cups-printerapp
   - enscript
   - foomatic
   - foomatic-db
@@ -30,8 +31,6 @@ data:
   - pnm2ppa
   # fonts
   - urw-base35-fonts
-  # resolving .local addresses
-  - nss-mdns
 
 
   labels:
